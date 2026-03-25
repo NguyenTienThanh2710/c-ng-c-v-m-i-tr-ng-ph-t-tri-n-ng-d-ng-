@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        header h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3498db;
+            margin-bottom: 1.5rem;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        .skill-tag {
+            background: #3498db;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
+            <h1>Xin chào, tôi là Tuan Pham</h1>
+            <p><strong>Lập trình viên & Người yêu công nghệ</strong></p>
+        </header>
+        <div class="content">
+            <p>Chào mừng bạn đến với trang giới thiệu của tôi. Đây là một ứng dụng Spring Boot đơn giản được chạy trong container Docker.</p>
+            <p>Tôi đam mê xây dựng các hệ thống hiệu quả, có khả năng mở rộng và luôn tìm tòi những công nghệ mới như Docker, Kubernetes và kiến trúc Microservices.</p>
+            <div class="skills">
+                <span class="skill-tag">Java / Spring Boot</span>
+                <span class="skill-tag">Docker & Compose</span>
+                <span class="skill-tag">Microservices</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Kubernetes</span>
+            </div>
+        </div>
+        <footer>
+            &copy; 2026 Tuan Pham. Được xây dựng với Docker & Spring Boot.
+        </footer>
+    </div>
+</body>
+</html>

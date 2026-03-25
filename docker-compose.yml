@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: nguyentienthanh27102004/personal-intro-app:latest
+    container_name: personal-intro-app
+    ports:
+      - "8080:8080"
+    restart: always
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
